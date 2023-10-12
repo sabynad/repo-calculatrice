@@ -1,0 +1,52 @@
+*{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 20rem;
+    margin: 2rem auto;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    box-shadow: 2px 5px 1px black;    
+}
+
+h1{
+    font-size:2rem;
+    text-align: center;
+}
+.affichage{
+    width: 100%;
+    height: 2.5rem;
+    border: 1px solid #000000;
+    background-color:blanchedalmond;  
+    padding: 10px;
+    text-align: end;
+}
+.clavier{
+    border: 2px solid green;
+    width: 100%;
+    display: flex;
+}
+.clavier-chiffres{
+    border: 1px solid blue;
+    width: 100%;
+}
+
+.clavier-symboles{
+    border:4px solid pink ;
+    display: flex;
+    flex-direction: column;
+}
+.bouton{
+    padding: 1.2rem;
+    margin: 0.1rem;
+    cursor: pointer;
+    
+}
+.btn-egale{
+    padding: 1rem;
+    width: 100%;
+    cursor: pointer;
+}
