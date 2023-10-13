@@ -16,7 +16,7 @@ h1{
     font-size:2rem;
     text-align: center;
 }
-.affichage{
+.ecran{
     width: 100%;
     height: 2.5rem;
     border: 1px solid #000000;
@@ -25,28 +25,38 @@ h1{
     text-align: end;
 }
 .clavier{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 100%;
     display: flex;
 }
 .clavier-chiffres{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
 }
 
 .clavier-symboles{
-    border:4px solid pink ;
+    /* border:4px solid pink ; */
     display: flex;
     flex-direction: column;
 }
-.bouton{
+.btn{
     padding: 1.2rem;
     margin: 0.1rem;
-    cursor: pointer;
+    /* cursor: pointer; */
     
 }
 .btn-egale{
     padding: 1rem;
+    margin-top: 10%;
     width: 100%;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
+.btn-point{
+    padding: 1.2rem;
+    margin: 0.1rem;
+}
+.btnC{
+    padding: 1.2rem;
+    margin: 0.1rem;
+}
+
